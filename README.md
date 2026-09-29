@@ -12,10 +12,10 @@ Al-Rowad International Schools · 100-point weekly retention system, 4C Skills R
 | `data/seed-data.json` | Your data exported from the claude.ai version on 29 Sep 2026: 237 students, 49 staff, all points, notes and 4C skills recognitions, and your Settings (conduct categories, skills, severity thresholds). Loaded automatically the **first time** the site runs. Keep a copy as a backup. |
 | `netlify.toml`, `package.json` | Netlify build settings. |
 
-## Already have aisbms.netlify.app from Netlify Drop?
+## Already have your-site.netlify.app from Netlify Drop?
 
 A Drop deploy can't run the database, so it has never stored any data. Deploy this folder over the same site
-with either method below (for the command line, use `npx netlify-cli link` and pick **aisbms** instead of `init`).
+with either method below (for the command line, use `npx netlify-cli link` and pick **your existing site** instead of `init`).
 Your data from `data/seed-data.json` loads automatically the first time the new version runs.
 
 If a *working* deploy (GitHub or command line) has already been used, its live data is kept: the seed file is
